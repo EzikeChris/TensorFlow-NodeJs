@@ -1,0 +1,29 @@
+{
+  "name": "TensorFlow & Nodejs Models",
+  "version": "0.2.0",
+  "description": "Deep learning models for classifying baseball metrics",
+  "scripts": {
+    "start-client": "webpack && webpack-dev-server",
+    "type": "module",
+    "start-server": "node server.js"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "clang-format": "~1.2.3",
+    "eslint": "^7.32.0",
+    "mkdirp": "~0.5.1",
+    "webpack": "~4.28.4",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node-gpu": "^3.8.0",
+    "argparse": "^1.0.10",
+    "nodemon": "^2.0.12",
+    "socket.io": "~2.4.0"
+  },
+  "resolutions": {
+    "node-fetch": "2.6.1",
+    "ssri": "8.0.1"
+  }
+}
